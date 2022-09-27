@@ -1,0 +1,55 @@
+﻿<%--
+默认的外观模板。以下外观仅作为示例提供。
+
+1. 命名的控件外观。SkinId 的定义应唯一，因为在同一主题中不允许一个控件类型有重复的 SkinId。
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. 默认外观。未定义 SkinId。在同一主题中每个控件类型只允许有一个默认的控件外观。
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:GridView runat="server" SkinID="GridViewAuto" BackColor="White" BorderColor="#D4D0C8" Width="100%" 
+    BorderStyle="Solid"   BorderWidth="1px" CellPadding="3" ForeColor="Black"   GridLines="Both" Font-Size="9pt">
+    <PagerStyle BackColor="#367517" ForeColor="Black" HorizontalAlign="Center"  Font-Size="9pt"/>
+    <HeaderStyle BackColor="#367517" Font-Bold="True" ForeColor="White" Font-Size="9pt" CssClass="gridview_title"/>
+    <AlternatingRowStyle CssClass="alternatingRowStyle"/>
+    <RowStyle CssClass="rowstyle"/>
+    <FooterStyle CssClass="footerstyle"/>
+    <EmptyDataTemplate>
+            <div class="emptyDataTemplateStyle" style="text-align:center;vertical-align:middle">
+                 <br /><br /><br />暂无数据
+
+           </div>
+    </EmptyDataTemplate>
+</asp:GridView>
+<asp:GridView runat="server" SkinID="GridView" BackColor="White" BorderColor="#D4D0C8"
+    BorderStyle="Solid" Width="99%" BorderWidth="1px" CellPadding="3" ForeColor="Black"   GridLines="Both" AutoGenerateColumns="False" Font-Size="9pt">
+    <PagerStyle BackColor="#EFEFEF" ForeColor="Black" HorizontalAlign="Center"  Font-Size="9pt"/>
+    <HeaderStyle BackColor="#EFEFEF" Font-Bold="True" ForeColor="Black" Font-Size="9pt" CssClass="gridview_title"/>
+    <AlternatingRowStyle CssClass="alternatingRowStyle"/>
+    <RowStyle CssClass="rowstyle"/>
+    <FooterStyle CssClass="footerstyle"/>
+    <EmptyDataTemplate>
+            <div class="emptyDataTemplateStyle" style="text-align:center;vertical-align:middle">
+                 <br /><br /><br />暂无数据
+
+           </div>
+    </EmptyDataTemplate>
+</asp:GridView>
+<asp:GridView runat="server" SkinID="GridViewSearch" BackColor="White" BorderColor="#D4D0C8"
+    BorderStyle="Solid" Width="99%" BorderWidth="1px" CellPadding="3" ForeColor="Black"   GridLines="Both" AutoGenerateColumns="False" Font-Size="9pt">
+    <PagerStyle BackColor="#EFEFEF" ForeColor="Black" HorizontalAlign="Center"  Font-Size="9pt"/>
+    <HeaderStyle BackColor="#EFEFEF" Font-Bold="True" ForeColor="Black" Font-Size="9pt" CssClass="gridview_title"/>
+    <AlternatingRowStyle CssClass="alternatingRowStyle"/>
+    <RowStyle CssClass="rowstyle"/>
+    <FooterStyle CssClass="footerstyle"/>
+    <EmptyDataTemplate>
+            <div class="emptyDataTemplateStyle" style="text-align:center;vertical-align:middle">
+                 <br /><br /><br />找不到和您的查询条件相符的信息
+
+           </div>
+    </EmptyDataTemplate>
+</asp:GridView>

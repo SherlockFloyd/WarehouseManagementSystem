@@ -1,0 +1,288 @@
+﻿ 
+.body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font: normal 11px auto "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;  
+	
+}
+.MaskedEditFocus
+{
+    background-color: #ffffcc;
+    color: #000000;
+}
+.MaskedEditMessage
+{
+	color: #ff0000;
+	font-weight: bold;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px; 
+}
+ 
+ 
+ 
+ 
+.lbale
+{
+    font-family: "宋体";
+	font-size: 12px;
+	color: #202358;
+      
+}
+.lbale2
+{
+	font-family: "宋体";
+	font-size: 12px;
+	color: Green;
+}
+.lbaledot
+{
+    font-family: "宋体";
+	font-size: 10px;
+	color: #202358;
+      
+} 
+.TDItem_shade_leftmust
+{
+	font-family: "宋体";
+	font-size: 12px;
+	color:Red;
+	border-top:1px solid #96A4C9;
+	border-left:1px solid #96A4C9;
+	overflow:hidden;
+	letter-spacing: 1px;
+	padding-top: 2px;
+	padding-left: 25px;
+	padding: 5px;
+	text-align: right;
+}
+.TDItem_shade_left 
+{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #0066CC;
+	border-top:1px solid #96A4C9;
+	border-left:1px solid #96A4C9;
+	overflow:hidden;
+	letter-spacing: 1px;
+	padding-top: 2px;
+	padding-left: 25px;
+	padding: 5px;
+	text-align: right;
+} 
+
+.TDItem_shade_right 
+{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #202358;
+	border-top:1px solid #96A4C9;
+	border-left:1px solid #96A4C9;
+	overflow:hidden;
+	letter-spacing: 1px;
+	padding-top: 2px;
+	padding-left: 25px;
+	padding: 5px;	 
+}
+
+.TDItem_shade_center 
+{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #202358;
+	border-top:1px solid #96A4C9;
+	border-left:1px solid #96A4C9;
+	overflow:hidden;
+	letter-spacing: 1px;
+	padding-top: 2px;
+	padding-left: 25px;
+	padding: 5px;
+	text-align:center;
+	 
+}
+.table  
+{
+ font-size:11px; 
+width:100%;
+border-collapse:collapse; 
+ 
+} 
+ 
+ 
+ 
+/*
+以下为GridView的模版
+
+*/
+.emptyDataTemplateStyle
+{
+	background-color:#F3F8FC;
+	width:100%;
+	height:100px;
+	
+	
+}
+.rowstyle
+{
+	height:22px;
+	background-color:#ffffff;
+}
+.rowMouseOver
+{
+	background-color:#F8F8F8;
+}
+.alternatingRowStyle
+{
+	height:22px;
+	background-color:#F3F8FC;	
+}
+.footerstyle
+{
+	background-color:#FBF7F3;
+	height:22px;
+	color:#FF3300;	
+}
+.totalstyle
+{
+	background-color:#FBF7F3;
+	color:#FF3300;
+}
+
+ 
+
+.TextBox
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	width:200px;
+	height:20px;
+}
+
+.TextBoxReadOnly
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	background-color:#E2E6ED;
+	width:200px;
+	height:20px;
+}
+
+.TextBoxVisibleFalse
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	width:0px;
+	height:0px;
+	visibility : hidden;
+}
+
+.TextBoxMuti
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	width:200px;
+	height:50px;
+}
+.TextBoxMutiList
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	 
+	  border-Top-style:none;
+	  border-left-style:none;
+	   border-right-style:none;
+	width:100%;
+	
+}
+.SaleTextBoxMutiList
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	 
+	width:620px;
+}
+
+.DropDownList
+{
+	font-size: 12px;
+	width:200px;
+}
+
+.ListBox
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	width:200px;
+} 
+.CheckBox
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	border: 1px solid #D9D9D9;
+	width:100%;
+	
+}
+.RadioBox
+{
+	font-family: "宋体";
+	font-size: 10pt;
+	text-decoration: none;
+	
+	
+	
+}
+.BTCss
+{
+	font-weight: bold;
+	font-size: 12px;
+	
+	font-family: 宋体, 'Arial Black';
+}
+
+.TDItem 
+{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #202358;
+	
+	overflow:hidden;
+	letter-spacing: 1px;
+	padding-top: 2px;
+	padding-left: 25px;
+	padding: 5px;
+	
+	 
+}
+
+.down_text {
+	font-family: Arial;	font-size:8pt;background-color:#000000;color:#FFFFFF
+	}
+.TD_Class
+{
+    font-size:12px;   FONT-FAMILY: "Verdana", "Arial", "细明体", "sans-serif";  
+}
+.btn {
+BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7b9ebd 1px solid
+}
+
+
+
